@@ -3,7 +3,7 @@
 int number_simulation(int n){
 		int  m = n%10;
 		int count = 0;
-		while (n > 9){
+		while (n > 10){
 		if (m >= 0 && m < 4){ 
 			n = n + m*2;
 			count ++;
