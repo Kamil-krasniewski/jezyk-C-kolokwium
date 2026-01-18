@@ -20,7 +20,8 @@ int calculate_score(const char *str)
         {
             suma = 0;
         }
-
+        else if (*str == ' '){
+            suma += 5;
         str++;
     }
 
